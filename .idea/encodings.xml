@@ -2,7 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/MicroService-Api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MicroService-Eureka-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Consumer-9901/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Provider-8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Provider-8801/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Provider-8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Provider-8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Register-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Register-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Register-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MicroService-Eureka-Register-7003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

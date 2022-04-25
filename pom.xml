@@ -6,13 +6,19 @@
     <packaging>pom</packaging>
     <modules>
         <module>MicroService-Api</module>
-        <module>MicroService-Eureka-8001</module>
+        <module>MicroService-Eureka-Register-7001</module>
+        <module>MicroService-Eureka-Register-7002</module>
+        <module>MicroService-Eureka-Register-7003</module>
+        <module>MicroService-Eureka-Provider-8801</module>
+        <module>MicroService-Eureka-Provider-8802</module>
+        <module>MicroService-Eureka-Provider-8803</module>
+        <module>MicroService-Eureka-Consumer-9901</module>
     </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <version>2.6.4</version>
     </parent>
 
     <groupId>com.young</groupId>
@@ -34,8 +40,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
         </dependencies>
     </dependencyManagement>
 

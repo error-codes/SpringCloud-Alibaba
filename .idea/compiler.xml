@@ -7,15 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MicroService-Eureka-Register-7001" />
+        <module name="MicroService-Eureka-Register-7002" />
+        <module name="MicroService-Eureka-Register-7003" />
         <module name="MicroService-Api" />
-        <module name="MicroService-Eureka-8001" />
+        <module name="MicroService-Eureka-Consumer-9901" />
+        <module name="MicroService-Eureka-Provider-8801" />
+        <module name="MicroService-Eureka-Provider-8803" />
+        <module name="MicroService-Eureka-Provider-8802" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MicroService-Api" options="-parameters" />
-      <module name="MicroService-Eureka-8001" options="-parameters" />
+      <module name="MicroService-Eureka-Consumer-9901" options="-parameters" />
+      <module name="MicroService-Eureka-Provider-8801" options="-parameters" />
+      <module name="MicroService-Eureka-Provider-8802" options="-parameters" />
+      <module name="MicroService-Eureka-Provider-8803" options="-parameters" />
+      <module name="MicroService-Eureka-Register-7001" options="-parameters" />
+      <module name="MicroService-Eureka-Register-7002" options="-parameters" />
+      <module name="MicroService-Eureka-Register-7003" options="-parameters" />
     </option>
   </component>
 </project>

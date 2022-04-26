@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author error-codes【BayMax】
  * @see <a href="www.error-codes.xyz">BayMax Blog</a>
- * @since 2022/4/25 17:42
+ * @since 2022/4/26 18:00
  */
 @RestController
 @RequestMapping("/consumer/dept")
@@ -22,7 +22,7 @@ public class DeptConsumerController {
 //    private static final String REST_URL_PROVIDER_PREFIX = "http://localhost:8001/";
 
     // 面向微服务编程，即通过微服务的名称来获取调用地址
-    private static final String REST_URL_PROVIDER_PREFIX = "http://MICROSERVICE-EUREKA-PROVIDER";
+    private static final String REST_URL_PROVIDER_PREFIX = "http://MicroService-Eureka-Provider";
 
     @Autowired
     private RestTemplate restTemplate;

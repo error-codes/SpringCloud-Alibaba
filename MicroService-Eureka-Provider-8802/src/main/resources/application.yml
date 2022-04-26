@@ -24,6 +24,8 @@ eureka:
   client:                                                       # 将客户端注册到 eureka 服务列表内
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka, http://eureka7003.com:7003/eureka   # Eureka 集群注册中心在 application.yml 中暴露出来的注册地址
+    fetch-registry: true
+    register-with-eureka: true
 
   instance:
     instance-id: MicroService-Provider-8002                     # 自定义服务名称信息

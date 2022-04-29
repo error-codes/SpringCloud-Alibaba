@@ -7,27 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MicroService-Eureka-Hystrix-Consumer-9903" />
+        <module name="MicroService-Nacos-Provider-7701" />
+        <module name="MicroService-Eureka-Hystrix-Provider-8804" />
+        <module name="MicroService-Eureka-Gateway-9527" />
         <module name="MicroService-Eureka-Register-7001" />
         <module name="MicroService-Eureka-Register-7002" />
         <module name="MicroService-Eureka-Register-7003" />
         <module name="MicroService-Api" />
-        <module name="MicroService-Eureka-Consumer-9901" />
         <module name="MicroService-Eureka-Provider-8801" />
+        <module name="MicroService-Eureka-Consumer-9901" />
+        <module name="MicroService-Eureka-OpenFeign-Consumer-9902" />
         <module name="MicroService-Eureka-Provider-8803" />
         <module name="MicroService-Eureka-Provider-8802" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MicroService-Eureka-Consumer-9901 (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MicroService-Api" options="-parameters" />
       <module name="MicroService-Eureka-Consumer-9901" options="-parameters" />
+      <module name="MicroService-Eureka-Consumer-9901 (1)" options="-parameters" />
+      <module name="MicroService-Eureka-Gateway-9527" options="-parameters" />
+      <module name="MicroService-Eureka-Hystrix-Consumer-9903" options="-parameters" />
+      <module name="MicroService-Eureka-Hystrix-Provider-8804" options="-parameters" />
+      <module name="MicroService-Eureka-OpenFeign-Consumer-9902" options="-parameters" />
       <module name="MicroService-Eureka-Provider-8801" options="-parameters" />
       <module name="MicroService-Eureka-Provider-8802" options="-parameters" />
       <module name="MicroService-Eureka-Provider-8803" options="-parameters" />
       <module name="MicroService-Eureka-Register-7001" options="-parameters" />
       <module name="MicroService-Eureka-Register-7002" options="-parameters" />
       <module name="MicroService-Eureka-Register-7003" options="-parameters" />
+      <module name="MicroService-Nacos-Provider-7701" options="-parameters" />
+      <module name="SpringCloud-Alibaba" options="-parameters" />
+      <module name="SpringCloud-Netflix" options="-parameters" />
     </option>
   </component>
 </project>

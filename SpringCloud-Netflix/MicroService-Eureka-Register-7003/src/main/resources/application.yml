@@ -1,0 +1,17 @@
+server:
+  port: 7003
+
+########################################### Spring cloud 自定义服务名称和 ip 地址 ###############################################
+eureka:
+  instance:                                                                           # Eureka 实例
+    hostname: eureka7003.com                                                          # Eureka 服务端实例名称
+  server:
+    enable-self-preservation: false                                                   # 关闭 Eureka 的自我保护机制，默认是开启，一般建议开启
+
+  client:
+    register-with-eureka: false                                                       # 是否向注册中心注册自己
+    fetch-registry: false                                                             # 表示自己是注册中心，维护服务实例，不需要去检索服务
+    service-url:
+      # defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka         # 单机版服务注册中心
+      defaultZone:
+        http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka, http://eureka7003.com:7003/eureka       # 集群版

@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/MicroService-Eureka-Register-8001/pom.xml" />
         <option value="$PROJECT_DIR$/MicroService-Eureka-Provider-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroService-Eureka-Hystrix-Provider-8804/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloud-Netflix/MicroService-Eureka-Gateway-9527/pom.xml" />
       </list>
     </option>
   </component>

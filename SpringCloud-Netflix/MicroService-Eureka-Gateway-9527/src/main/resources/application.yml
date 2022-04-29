@@ -1,0 +1,32 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: MicroService-Eureka-Gateway                  # 对外暴漏的微服务名称，十分重要
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true                                # 开启从注册中心动态创建路由的功能，利用微服务名进行路由 默认：true
+      routes:
+        - id: MicroService-Eureka-Gateway-Routh        # 路由 id，没有固定规则，但唯一，建议与服务名对应
+          uri: lb://MICROSERVICE-EUREKA-PROVIDER       # 匹配后提供服务的路由地址
+          predicates:                                  # 以下是断言条件，必选全部符合条件
+          - Path=/**                                   # 断言，请求路径匹配 注意：Path 中 P 为大写
+          - Method=GET                                 # 断言，请求方式匹配
+          filters:
+            - PrefixPath=/dept                         # 在请求路径增加前缀路径
+
+
+########################################### Spring cloud 自定义服务名称和 ip 地址 ###############################################
+eureka:
+  client:                                                       # 将客户端注册到 eureka 服务列表内
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka, http://eureka7003.com:7003/eureka   # Eureka 集群注册中心在 application.yml 中暴露出来的注册地址
+    fetch-registry: true
+    register-with-eureka: true
+
+  instance:
+    instance-id: MicroService-Gateway-9527                      # 自定义服务名称信息
+    hostname: MicroService-Gateway

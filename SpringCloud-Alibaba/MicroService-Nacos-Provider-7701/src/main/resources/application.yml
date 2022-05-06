@@ -1,0 +1,13 @@
+server:
+  port: 7701
+
+spring:
+  application:
+    name: MicroService-Nacos-Provider                          # 对外暴漏的微服务名称，十分重要
+
+
+#################################################### Nacos Server 地址 ##################################################
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

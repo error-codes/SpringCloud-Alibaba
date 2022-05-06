@@ -1,0 +1,20 @@
+server:
+  port: 6602
+
+spring:
+  application:
+    name: MicroService-Nacos-Sentinel-Consumer                          # 对外暴漏的微服务名称，十分重要
+
+
+#################################################### Nacos Server 地址 ##################################################
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: 127.0.0.1:8080
+
+service-url:
+  nacos-user-service: http://MicroService-Nacos-Sentinel-Provider

@@ -6,7 +6,9 @@
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Config-3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Consumer-6601/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Provider-7701/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Seata-4444/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Seata-Order-1111/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Seata-Storage-2222/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Seata-Storage-2222/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Sentinel-5501/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Sentinel-Consumer-6602/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloud-Alibaba/MicroService-Nacos-Sentinel-Provider-7702/src/main/java" charset="UTF-8" />

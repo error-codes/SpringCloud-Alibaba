@@ -19,7 +19,9 @@
         <module>MicroService-Nacos-Sentinel-Consumer-6602</module>
         <module>MicroService-Nacos-Config-3344</module>
         <module>MicroService-Nacos-Sentinel-5501</module>
-        <module>MicroService-Nacos-Seata-4444</module>
+        <module>MicroService-Nacos-Seata-Order-1111</module>
+        <module>MicroService-Nacos-Seata-Storage-2222</module>
+        <module>MicroService-Nacos-Seata-Account-3333</module>
     </modules>
 
     <properties>

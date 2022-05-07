@@ -10,6 +10,7 @@
         <module name="MicroService-Eureka-Hystrix-Consumer-9903" />
         <module name="MicroService-Nacos-Provider-7701" />
         <module name="MicroService-Nacos-Sentinel-Provider-7702" />
+        <module name="MicroService-Nacos-Seata-Order-1111" />
         <module name="MicroService-Nacos-Consumer-6601" />
         <module name="MicroService-Eureka-Hystrix-Provider-8804" />
         <module name="MicroService-Nacos-Config-3344" />
@@ -20,7 +21,8 @@
         <module name="MicroService-Eureka-Register-7002" />
         <module name="MicroService-Eureka-Register-7003" />
         <module name="MicroService-Api" />
-        <module name="MicroService-Nacos-Seata-4444" />
+        <module name="MicroService-Nacos-Seata-Account-3333" />
+        <module name="MicroService-Nacos-Seata-Storage-2222" />
         <module name="MicroService-Eureka-Provider-8801" />
         <module name="MicroService-Eureka-Consumer-9901" />
         <module name="MicroService-Eureka-OpenFeign-Consumer-9902" />
@@ -30,6 +32,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MicroService-Eureka-Consumer-9901 (1)" target="17" />
+      <module name="MicroService-Nacos-Seata-Order-1111 (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,7 +53,10 @@
       <module name="MicroService-Nacos-Config-3344" options="-parameters" />
       <module name="MicroService-Nacos-Consumer-6601" options="-parameters" />
       <module name="MicroService-Nacos-Provider-7701" options="-parameters" />
-      <module name="MicroService-Nacos-Seata-4444" options="-parameters" />
+      <module name="MicroService-Nacos-Seata-Account-3333" options="-parameters" />
+      <module name="MicroService-Nacos-Seata-Order-1111" options="-parameters" />
+      <module name="MicroService-Nacos-Seata-Order-1111 (1)" options="-parameters" />
+      <module name="MicroService-Nacos-Seata-Storage-2222" options="-parameters" />
       <module name="MicroService-Nacos-Sentinel-5501" options="-parameters" />
       <module name="MicroService-Nacos-Sentinel-Consumer-6602" options="-parameters" />
       <module name="MicroService-Nacos-Sentinel-Provider-7702" options="-parameters" />
